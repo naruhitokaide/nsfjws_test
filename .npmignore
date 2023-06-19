@@ -1,0 +1,27 @@
+.vscode/
+.rpt2_cache/
+demos/
+scripts/
+src/
+coverage/
+node_modules/
+karma.conf.js
+*.tgz
+dist/**/*.js.map
+.travis.yml
+.npmignore
+tslint.json
+yarn.lock
+example/
+_art/
+yarn-error.log
+bundle.js
+.DS_Store
+
+# Ignore intermediate browserify files
+# Mountpoint
+dist/nsfwjs.d.ts
+dist/nsfwjs.js
+# Unminified bundle
+dist/bundle.js
+
